@@ -105,7 +105,7 @@ RUBY
           File.rename before, after
         end
         
-        oriFiles = Dir(project_folder + "/PROJECT/*")
+        oriFiles = Dir[project_folder + "/PROJECT/*"]
         oriFiles.each do |file|
         puts "original file is " + file  #log输出重命名前的类文件
         puts ""
