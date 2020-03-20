@@ -1,0 +1,2 @@
+# MyPodTemplate
+my pod-template
