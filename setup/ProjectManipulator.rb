@@ -97,13 +97,13 @@ RUBY
 
       unless @remove_demo_target
         # change app file prefixes
-#        ["CPDAppDelegate.h", "CPDAppDelegate.m", "CPDViewController.h", "CPDViewController.m"].each do |file|
-#          before = project_folder + "/PROJECT/" + file
-#          next unless File.exists? before
-#
-#          after = project_folder + "/PROJECT/" + file.gsub("CPD", prefix)
-#          File.rename before, after
-#        end
+        ["CPDAppDelegate.h", "CPDAppDelegate.m", "CPDViewController.h", "CPDViewController.m"].each do |file|
+          before = project_folder + "/PROJECT/" + file
+          next unless File.exists? before
+
+          after = project_folder + "/PROJECT/" + file.gsub("CPD", prefix)
+          File.rename before, after
+        end
         
         oriFiles = Dir[project_folder + "/PROJECT/*"]
         oriFiles.each do |file|
