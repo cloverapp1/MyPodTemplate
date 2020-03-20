@@ -22,6 +22,13 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8F5EC9F52424C45B009E3A72 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9E72424C45B009E3A72 /* NSMutableArray+Safe.m */; };
+		8F5EC9F62424C45B009E3A72 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9E82424C45B009E3A72 /* NSArray+Safe.m */; };
+		8F5EC9F72424C45B009E3A72 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9EA2424C45B009E3A72 /* NSMutableDictionary+Safe.m */; };
+		8F5EC9F82424C45B009E3A72 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9EC2424C45B009E3A72 /* NSDictionary+Safe.m */; };
+		8F5EC9F92424C45B009E3A72 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9ED2424C45B009E3A72 /* NSObject+Swizzling.m */; };
+		8F5EC9FA2424C45B009E3A72 /* NSObject+ImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9EE2424C45B009E3A72 /* NSObject+ImpChangeTool.m */; };
+		8F5EC9FB2424C45B009E3A72 /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EC9F42424C45B009E3A72 /* NSMutableString+Safe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +37,7 @@
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = "PROJECT";
+			remoteInfo = PROJECT;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -56,6 +63,21 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F5EC9E62424C45B009E3A72 /* NSObject+ImpChangeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImpChangeTool.h"; sourceTree = "<group>"; };
+		8F5EC9E72424C45B009E3A72 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		8F5EC9E82424C45B009E3A72 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		8F5EC9E92424C45B009E3A72 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		8F5EC9EA2424C45B009E3A72 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		8F5EC9EB2424C45B009E3A72 /* SafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeObject.h; sourceTree = "<group>"; };
+		8F5EC9EC2424C45B009E3A72 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		8F5EC9ED2424C45B009E3A72 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		8F5EC9EE2424C45B009E3A72 /* NSObject+ImpChangeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImpChangeTool.m"; sourceTree = "<group>"; };
+		8F5EC9EF2424C45B009E3A72 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		8F5EC9F02424C45B009E3A72 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		8F5EC9F12424C45B009E3A72 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		8F5EC9F22424C45B009E3A72 /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		8F5EC9F32424C45B009E3A72 /* NSMutableString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
+		8F5EC9F42424C45B009E3A72 /* NSMutableString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +138,7 @@
 		6003F593195388D20070C39A /* Example for PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				8F5EC9E52424C3C0009E3A72 /* Category */,
 				6003F59C195388D20070C39A /* CPDAppDelegate.h */,
 				6003F59D195388D20070C39A /* CPDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -126,7 +149,7 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for PROJECT";
-			path = "PROJECT";
+			path = PROJECT;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
@@ -166,6 +189,28 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8F5EC9E52424C3C0009E3A72 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8F5EC9F22424C45B009E3A72 /* NSArray+Safe.h */,
+				8F5EC9E82424C45B009E3A72 /* NSArray+Safe.m */,
+				8F5EC9EF2424C45B009E3A72 /* NSDictionary+Safe.h */,
+				8F5EC9EC2424C45B009E3A72 /* NSDictionary+Safe.m */,
+				8F5EC9F12424C45B009E3A72 /* NSMutableArray+Safe.h */,
+				8F5EC9E72424C45B009E3A72 /* NSMutableArray+Safe.m */,
+				8F5EC9E92424C45B009E3A72 /* NSMutableDictionary+Safe.h */,
+				8F5EC9EA2424C45B009E3A72 /* NSMutableDictionary+Safe.m */,
+				8F5EC9F32424C45B009E3A72 /* NSMutableString+Safe.h */,
+				8F5EC9F42424C45B009E3A72 /* NSMutableString+Safe.m */,
+				8F5EC9E62424C45B009E3A72 /* NSObject+ImpChangeTool.h */,
+				8F5EC9EE2424C45B009E3A72 /* NSObject+ImpChangeTool.m */,
+				8F5EC9F02424C45B009E3A72 /* NSObject+Swizzling.h */,
+				8F5EC9ED2424C45B009E3A72 /* NSObject+Swizzling.m */,
+				8F5EC9EB2424C45B009E3A72 /* SafeObject.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,8 +226,8 @@
 			);
 			dependencies = (
 			);
-			name = "PROJECT_Example";
-			productName = "PROJECT";
+			name = PROJECT_Example;
+			productName = PROJECT;
 			productReference = 6003F58A195388D20070C39A /* PROJECT_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -199,8 +244,8 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = "PROJECT_Tests";
-			productName = "PROJECTTests";
+			name = PROJECT_Tests;
+			productName = PROJECTTests;
 			productReference = 6003F5AE195388D20070C39A /* PROJECT_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -212,7 +257,7 @@
 			attributes = {
 				CLASSPREFIX = CPD;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "PROJECT_OWNER";
+				ORGANIZATIONNAME = PROJECT_OWNER;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -224,6 +269,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -265,7 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5EC9FA2424C45B009E3A72 /* NSObject+ImpChangeTool.m in Sources */,
+				8F5EC9FB2424C45B009E3A72 /* NSMutableString+Safe.m in Sources */,
+				8F5EC9F72424C45B009E3A72 /* NSMutableDictionary+Safe.m in Sources */,
+				8F5EC9F52424C45B009E3A72 /* NSMutableArray+Safe.m in Sources */,
+				8F5EC9F62424C45B009E3A72 /* NSArray+Safe.m in Sources */,
+				8F5EC9F92424C45B009E3A72 /* NSObject+Swizzling.m in Sources */,
 				6003F59E195388D20070C39A /* CPDAppDelegate.m in Sources */,
+				8F5EC9F82424C45B009E3A72 /* NSDictionary+Safe.m in Sources */,
 				6003F5A7195388D20070C39A /* CPDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
